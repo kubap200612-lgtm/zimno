@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "bkanalityk",
+  "version": "${version}",
+  "name": "BK Analityk",
+  "description": "Analiza cen przedmiotów kupowanych przez BK-Rynek 3.0: wykresy, sugerowane ceny skupu i sprzedaży (z 3% podatkiem), automatyczna regulacja cen.",
+  "authors": ["kuba"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.rynek.analityk.AnalitykClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*",
+    "bkrynek": "*"
+  }
+}
